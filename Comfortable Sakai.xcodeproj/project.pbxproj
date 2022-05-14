@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9755F5B1282F60F400AF6F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5B0282F60F400AF6F3C /* AppDelegate.swift */; };
+		9755F5B3282F60F400AF6F3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5B2282F60F400AF6F3C /* SceneDelegate.swift */; };
+		9755F5B6282F60F400AF6F3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5B4282F60F400AF6F3C /* LaunchScreen.storyboard */; };
+		9755F5B9282F60F400AF6F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5B7282F60F400AF6F3C /* Main.storyboard */; };
+		9755F5C2282F60F400AF6F3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5C1282F60F400AF6F3C /* AppDelegate.swift */; };
+		9755F5C5282F60F400AF6F3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5C3282F60F400AF6F3C /* Main.storyboard */; };
+		9755F5CD282F60F400AF6F3C /* Comfortable Sakai Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9755F5CC282F60F400AF6F3C /* Comfortable Sakai Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9755F5D7282F60F400AF6F3C /* Comfortable Sakai Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9755F5D6282F60F400AF6F3C /* Comfortable Sakai Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9755F5DD282F60F400AF6F3C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A0282F60F300AF6F3C /* Main.html */; };
+		9755F5DE282F60F400AF6F3C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A0282F60F300AF6F3C /* Main.html */; };
+		9755F5DF282F60F400AF6F3C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A2282F60F300AF6F3C /* Icon.png */; };
+		9755F5E0282F60F400AF6F3C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A2282F60F300AF6F3C /* Icon.png */; };
+		9755F5E1282F60F400AF6F3C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A3282F60F300AF6F3C /* Style.css */; };
+		9755F5E2282F60F400AF6F3C /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A3282F60F300AF6F3C /* Style.css */; };
+		9755F5E3282F60F400AF6F3C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A4282F60F300AF6F3C /* Script.js */; };
+		9755F5E4282F60F400AF6F3C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A4282F60F300AF6F3C /* Script.js */; };
+		9755F5E5282F60F400AF6F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5A5282F60F300AF6F3C /* ViewController.swift */; };
+		9755F5E6282F60F400AF6F3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5A5282F60F300AF6F3C /* ViewController.swift */; };
+		9755F5E7282F60F400AF6F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A6282F60F400AF6F3C /* Assets.xcassets */; };
+		9755F5E8282F60F400AF6F3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5A6282F60F400AF6F3C /* Assets.xcassets */; };
+		9755F5E9282F60F400AF6F3C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5A8282F60F400AF6F3C /* SafariWebExtensionHandler.swift */; };
+		9755F5EA282F60F400AF6F3C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9755F5A8282F60F400AF6F3C /* SafariWebExtensionHandler.swift */; };
+		9755F606282F60F500AF6F3C /* subsakai.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FC282F60F500AF6F3C /* subsakai.js */; };
+		9755F607282F60F500AF6F3C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FD282F60F500AF6F3C /* background.js */; };
+		9755F608282F60F500AF6F3C /* css in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FE282F60F500AF6F3C /* css */; };
+		9755F609282F60F500AF6F3C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FF282F60F500AF6F3C /* popup.html */; };
+		9755F60A282F60F500AF6F3C /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755F600282F60F500AF6F3C /* 128.png */; };
+		9755F60B282F60F500AF6F3C /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9755F601282F60F500AF6F3C /* img */; };
+		9755F60C282F60F500AF6F3C /* content_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F602282F60F500AF6F3C /* content_script.js */; };
+		9755F60D282F60F500AF6F3C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9755F603282F60F500AF6F3C /* manifest.json */; };
+		9755F60E282F60F500AF6F3C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9755F604282F60F500AF6F3C /* _locales */; };
+		9755F60F282F60F500AF6F3C /* views in Resources */ = {isa = PBXBuildFile; fileRef = 9755F605282F60F500AF6F3C /* views */; };
+		9755F610282F60F500AF6F3C /* subsakai.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FC282F60F500AF6F3C /* subsakai.js */; };
+		9755F611282F60F500AF6F3C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FD282F60F500AF6F3C /* background.js */; };
+		9755F612282F60F500AF6F3C /* css in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FE282F60F500AF6F3C /* css */; };
+		9755F613282F60F500AF6F3C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9755F5FF282F60F500AF6F3C /* popup.html */; };
+		9755F614282F60F500AF6F3C /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 9755F600282F60F500AF6F3C /* 128.png */; };
+		9755F615282F60F500AF6F3C /* img in Resources */ = {isa = PBXBuildFile; fileRef = 9755F601282F60F500AF6F3C /* img */; };
+		9755F616282F60F500AF6F3C /* content_script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9755F602282F60F500AF6F3C /* content_script.js */; };
+		9755F617282F60F500AF6F3C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9755F603282F60F500AF6F3C /* manifest.json */; };
+		9755F618282F60F500AF6F3C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9755F604282F60F500AF6F3C /* _locales */; };
+		9755F619282F60F500AF6F3C /* views in Resources */ = {isa = PBXBuildFile; fileRef = 9755F605282F60F500AF6F3C /* views */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9755F5CE282F60F400AF6F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755F59A282F60F300AF6F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9755F5CB282F60F400AF6F3C;
+			remoteInfo = "Comfortable Sakai Extension (iOS)";
+		};
+		9755F5D8282F60F400AF6F3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9755F59A282F60F300AF6F3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9755F5D5282F60F400AF6F3C;
+			remoteInfo = "Comfortable Sakai Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9755F5F0282F60F400AF6F3C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9755F5CD282F60F400AF6F3C /* Comfortable Sakai Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5F7282F60F400AF6F3C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9755F5D7282F60F400AF6F3C /* Comfortable Sakai Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9755F5A1282F60F300AF6F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9755F5A2282F60F300AF6F3C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9755F5A3282F60F300AF6F3C /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9755F5A4282F60F300AF6F3C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9755F5A5282F60F300AF6F3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9755F5A6282F60F400AF6F3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9755F5A8282F60F400AF6F3C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9755F5AD282F60F400AF6F3C /* Comfortable Sakai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comfortable Sakai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9755F5B0282F60F400AF6F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9755F5B2282F60F400AF6F3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9755F5B5282F60F400AF6F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9755F5B8282F60F400AF6F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9755F5BA282F60F400AF6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9755F5BF282F60F400AF6F3C /* Comfortable Sakai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Comfortable Sakai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9755F5C1282F60F400AF6F3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9755F5C4282F60F400AF6F3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9755F5C6282F60F400AF6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9755F5C7282F60F400AF6F3C /* Comfortable Sakai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Comfortable Sakai.entitlements"; sourceTree = "<group>"; };
+		9755F5CC282F60F400AF6F3C /* Comfortable Sakai Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comfortable Sakai Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9755F5D1282F60F400AF6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9755F5D6282F60F400AF6F3C /* Comfortable Sakai Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Comfortable Sakai Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9755F5DB282F60F400AF6F3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9755F5DC282F60F400AF6F3C /* Comfortable Sakai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Comfortable Sakai.entitlements"; sourceTree = "<group>"; };
+		9755F5FC282F60F500AF6F3C /* subsakai.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = subsakai.js; path = ../resources/subsakai.js; sourceTree = "<group>"; };
+		9755F5FD282F60F500AF6F3C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = ../resources/background.js; sourceTree = "<group>"; };
+		9755F5FE282F60F500AF6F3C /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; name = css; path = ../resources/css; sourceTree = "<group>"; };
+		9755F5FF282F60F500AF6F3C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = ../resources/popup.html; sourceTree = "<group>"; };
+		9755F600282F60F500AF6F3C /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 128.png; path = ../resources/128.png; sourceTree = "<group>"; };
+		9755F601282F60F500AF6F3C /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = ../resources/img; sourceTree = "<group>"; };
+		9755F602282F60F500AF6F3C /* content_script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content_script.js; path = ../resources/content_script.js; sourceTree = "<group>"; };
+		9755F603282F60F500AF6F3C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../resources/manifest.json; sourceTree = "<group>"; };
+		9755F604282F60F500AF6F3C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = ../resources/_locales; sourceTree = "<group>"; };
+		9755F605282F60F500AF6F3C /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; name = views; path = ../resources/views; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9755F5AA282F60F400AF6F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5BC282F60F400AF6F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5C9282F60F400AF6F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5D3282F60F400AF6F3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9755F599282F60F300AF6F3C = {
+			isa = PBXGroup;
+			children = (
+				9755F59E282F60F300AF6F3C /* Shared (App) */,
+				9755F5A7282F60F400AF6F3C /* Shared (Extension) */,
+				9755F5AF282F60F400AF6F3C /* iOS (App) */,
+				9755F5C0282F60F400AF6F3C /* macOS (App) */,
+				9755F5D0282F60F400AF6F3C /* iOS (Extension) */,
+				9755F5DA282F60F400AF6F3C /* macOS (Extension) */,
+				9755F5AE282F60F400AF6F3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9755F59E282F60F300AF6F3C /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5A5282F60F300AF6F3C /* ViewController.swift */,
+				9755F5A6282F60F400AF6F3C /* Assets.xcassets */,
+				9755F59F282F60F300AF6F3C /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		9755F59F282F60F300AF6F3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5A0282F60F300AF6F3C /* Main.html */,
+				9755F5A2282F60F300AF6F3C /* Icon.png */,
+				9755F5A3282F60F300AF6F3C /* Style.css */,
+				9755F5A4282F60F300AF6F3C /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9755F5A7282F60F400AF6F3C /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5FB282F60F500AF6F3C /* Resources */,
+				9755F5A8282F60F400AF6F3C /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		9755F5AE282F60F400AF6F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5AD282F60F400AF6F3C /* Comfortable Sakai.app */,
+				9755F5BF282F60F400AF6F3C /* Comfortable Sakai.app */,
+				9755F5CC282F60F400AF6F3C /* Comfortable Sakai Extension.appex */,
+				9755F5D6282F60F400AF6F3C /* Comfortable Sakai Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9755F5AF282F60F400AF6F3C /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5B0282F60F400AF6F3C /* AppDelegate.swift */,
+				9755F5B2282F60F400AF6F3C /* SceneDelegate.swift */,
+				9755F5B4282F60F400AF6F3C /* LaunchScreen.storyboard */,
+				9755F5B7282F60F400AF6F3C /* Main.storyboard */,
+				9755F5BA282F60F400AF6F3C /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		9755F5C0282F60F400AF6F3C /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5C1282F60F400AF6F3C /* AppDelegate.swift */,
+				9755F5C3282F60F400AF6F3C /* Main.storyboard */,
+				9755F5C6282F60F400AF6F3C /* Info.plist */,
+				9755F5C7282F60F400AF6F3C /* Comfortable Sakai.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		9755F5D0282F60F400AF6F3C /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5D1282F60F400AF6F3C /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		9755F5DA282F60F400AF6F3C /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5DB282F60F400AF6F3C /* Info.plist */,
+				9755F5DC282F60F400AF6F3C /* Comfortable Sakai.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		9755F5FB282F60F500AF6F3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9755F5FC282F60F500AF6F3C /* subsakai.js */,
+				9755F5FD282F60F500AF6F3C /* background.js */,
+				9755F5FE282F60F500AF6F3C /* css */,
+				9755F5FF282F60F500AF6F3C /* popup.html */,
+				9755F600282F60F500AF6F3C /* 128.png */,
+				9755F601282F60F500AF6F3C /* img */,
+				9755F602282F60F500AF6F3C /* content_script.js */,
+				9755F603282F60F500AF6F3C /* manifest.json */,
+				9755F604282F60F500AF6F3C /* _locales */,
+				9755F605282F60F500AF6F3C /* views */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9755F5AC282F60F400AF6F3C /* Comfortable Sakai (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9755F5F1282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai (iOS)" */;
+			buildPhases = (
+				9755F5A9282F60F400AF6F3C /* Sources */,
+				9755F5AA282F60F400AF6F3C /* Frameworks */,
+				9755F5AB282F60F400AF6F3C /* Resources */,
+				9755F5F0282F60F400AF6F3C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9755F5CF282F60F400AF6F3C /* PBXTargetDependency */,
+			);
+			name = "Comfortable Sakai (iOS)";
+			productName = "Comfortable Sakai (iOS)";
+			productReference = 9755F5AD282F60F400AF6F3C /* Comfortable Sakai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9755F5BE282F60F400AF6F3C /* Comfortable Sakai (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9755F5F8282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai (macOS)" */;
+			buildPhases = (
+				9755F5BB282F60F400AF6F3C /* Sources */,
+				9755F5BC282F60F400AF6F3C /* Frameworks */,
+				9755F5BD282F60F400AF6F3C /* Resources */,
+				9755F5F7282F60F400AF6F3C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9755F5D9282F60F400AF6F3C /* PBXTargetDependency */,
+			);
+			name = "Comfortable Sakai (macOS)";
+			productName = "Comfortable Sakai (macOS)";
+			productReference = 9755F5BF282F60F400AF6F3C /* Comfortable Sakai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9755F5CB282F60F400AF6F3C /* Comfortable Sakai Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9755F5ED282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai Extension (iOS)" */;
+			buildPhases = (
+				9755F5C8282F60F400AF6F3C /* Sources */,
+				9755F5C9282F60F400AF6F3C /* Frameworks */,
+				9755F5CA282F60F400AF6F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comfortable Sakai Extension (iOS)";
+			productName = "Comfortable Sakai Extension (iOS)";
+			productReference = 9755F5CC282F60F400AF6F3C /* Comfortable Sakai Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9755F5D5282F60F400AF6F3C /* Comfortable Sakai Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9755F5F4282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai Extension (macOS)" */;
+			buildPhases = (
+				9755F5D2282F60F400AF6F3C /* Sources */,
+				9755F5D3282F60F400AF6F3C /* Frameworks */,
+				9755F5D4282F60F400AF6F3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Comfortable Sakai Extension (macOS)";
+			productName = "Comfortable Sakai Extension (macOS)";
+			productReference = 9755F5D6282F60F400AF6F3C /* Comfortable Sakai Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9755F59A282F60F300AF6F3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9755F5AC282F60F400AF6F3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9755F5BE282F60F400AF6F3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9755F5CB282F60F400AF6F3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9755F5D5282F60F400AF6F3C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9755F59D282F60F300AF6F3C /* Build configuration list for PBXProject "Comfortable Sakai" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9755F599282F60F300AF6F3C;
+			productRefGroup = 9755F5AE282F60F400AF6F3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9755F5AC282F60F400AF6F3C /* Comfortable Sakai (iOS) */,
+				9755F5BE282F60F400AF6F3C /* Comfortable Sakai (macOS) */,
+				9755F5CB282F60F400AF6F3C /* Comfortable Sakai Extension (iOS) */,
+				9755F5D5282F60F400AF6F3C /* Comfortable Sakai Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9755F5AB282F60F400AF6F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5DF282F60F400AF6F3C /* Icon.png in Resources */,
+				9755F5B6282F60F400AF6F3C /* LaunchScreen.storyboard in Resources */,
+				9755F5DD282F60F400AF6F3C /* Main.html in Resources */,
+				9755F5E3282F60F400AF6F3C /* Script.js in Resources */,
+				9755F5E7282F60F400AF6F3C /* Assets.xcassets in Resources */,
+				9755F5B9282F60F400AF6F3C /* Main.storyboard in Resources */,
+				9755F5E1282F60F400AF6F3C /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5BD282F60F400AF6F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5E0282F60F400AF6F3C /* Icon.png in Resources */,
+				9755F5E2282F60F400AF6F3C /* Style.css in Resources */,
+				9755F5C5282F60F400AF6F3C /* Main.storyboard in Resources */,
+				9755F5E4282F60F400AF6F3C /* Script.js in Resources */,
+				9755F5E8282F60F400AF6F3C /* Assets.xcassets in Resources */,
+				9755F5DE282F60F400AF6F3C /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5CA282F60F400AF6F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F618282F60F500AF6F3C /* _locales in Resources */,
+				9755F615282F60F500AF6F3C /* img in Resources */,
+				9755F616282F60F500AF6F3C /* content_script.js in Resources */,
+				9755F612282F60F500AF6F3C /* css in Resources */,
+				9755F613282F60F500AF6F3C /* popup.html in Resources */,
+				9755F619282F60F500AF6F3C /* views in Resources */,
+				9755F617282F60F500AF6F3C /* manifest.json in Resources */,
+				9755F611282F60F500AF6F3C /* background.js in Resources */,
+				9755F610282F60F500AF6F3C /* subsakai.js in Resources */,
+				9755F614282F60F500AF6F3C /* 128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5D4282F60F400AF6F3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F60E282F60F500AF6F3C /* _locales in Resources */,
+				9755F60B282F60F500AF6F3C /* img in Resources */,
+				9755F60C282F60F500AF6F3C /* content_script.js in Resources */,
+				9755F608282F60F500AF6F3C /* css in Resources */,
+				9755F609282F60F500AF6F3C /* popup.html in Resources */,
+				9755F60F282F60F500AF6F3C /* views in Resources */,
+				9755F60D282F60F500AF6F3C /* manifest.json in Resources */,
+				9755F607282F60F500AF6F3C /* background.js in Resources */,
+				9755F606282F60F500AF6F3C /* subsakai.js in Resources */,
+				9755F60A282F60F500AF6F3C /* 128.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9755F5A9282F60F400AF6F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5E5282F60F400AF6F3C /* ViewController.swift in Sources */,
+				9755F5B1282F60F400AF6F3C /* AppDelegate.swift in Sources */,
+				9755F5B3282F60F400AF6F3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5BB282F60F400AF6F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5E6282F60F400AF6F3C /* ViewController.swift in Sources */,
+				9755F5C2282F60F400AF6F3C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5C8282F60F400AF6F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5E9282F60F400AF6F3C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755F5D2282F60F400AF6F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9755F5EA282F60F400AF6F3C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9755F5CF282F60F400AF6F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9755F5CB282F60F400AF6F3C /* Comfortable Sakai Extension (iOS) */;
+			targetProxy = 9755F5CE282F60F400AF6F3C /* PBXContainerItemProxy */;
+		};
+		9755F5D9282F60F400AF6F3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9755F5D5282F60F400AF6F3C /* Comfortable Sakai Extension (macOS) */;
+			targetProxy = 9755F5D8282F60F400AF6F3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9755F5A0282F60F300AF6F3C /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9755F5A1282F60F300AF6F3C /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9755F5B4282F60F400AF6F3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9755F5B5282F60F400AF6F3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9755F5B7282F60F400AF6F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9755F5B8282F60F400AF6F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9755F5C3282F60F400AF6F3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9755F5C4282F60F400AF6F3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9755F5EB282F60F400AF6F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9755F5EC282F60F400AF6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9755F5EE282F60F400AF6F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari.Extension;
+				PRODUCT_NAME = "Comfortable Sakai Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9755F5EF282F60F400AF6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari.Extension;
+				PRODUCT_NAME = "Comfortable Sakai Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9755F5F2282F60F400AF6F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari;
+				PRODUCT_NAME = "Comfortable Sakai";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9755F5F3282F60F400AF6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari;
+				PRODUCT_NAME = "Comfortable Sakai";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9755F5F5282F60F400AF6F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Comfortable Sakai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari.Extension;
+				PRODUCT_NAME = "Comfortable Sakai Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9755F5F6282F60F400AF6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Comfortable Sakai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari.Extension;
+				PRODUCT_NAME = "Comfortable Sakai Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9755F5F9282F60F400AF6F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Comfortable Sakai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari;
+				PRODUCT_NAME = "Comfortable Sakai";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9755F5FA282F60F400AF6F3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Comfortable Sakai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6B4TS7288;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Comfortable Sakai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.das08.ComfortableSakai.Safari;
+				PRODUCT_NAME = "Comfortable Sakai";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9755F59D282F60F300AF6F3C /* Build configuration list for PBXProject "Comfortable Sakai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9755F5EB282F60F400AF6F3C /* Debug */,
+				9755F5EC282F60F400AF6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9755F5ED282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9755F5EE282F60F400AF6F3C /* Debug */,
+				9755F5EF282F60F400AF6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9755F5F1282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9755F5F2282F60F400AF6F3C /* Debug */,
+				9755F5F3282F60F400AF6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9755F5F4282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9755F5F5282F60F400AF6F3C /* Debug */,
+				9755F5F6282F60F400AF6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9755F5F8282F60F400AF6F3C /* Build configuration list for PBXNativeTarget "Comfortable Sakai (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9755F5F9282F60F400AF6F3C /* Debug */,
+				9755F5FA282F60F400AF6F3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9755F59A282F60F300AF6F3C /* Project object */;
+}
